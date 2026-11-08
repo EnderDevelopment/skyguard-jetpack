@@ -1,0 +1,13 @@
+name: Jetpack
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  jetpack:
+    description: Gives you a protected jetpack Elytra.
+    usage: /jetpack
+    permission: jetpack.use
+permissions:
+  jetpack.use:
+    description: Allows the player to receive a jetpack.
+    default: op
